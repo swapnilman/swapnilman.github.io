@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100vh;
+  background: #9CF;
+  background: linear-gradient(#9CF 0%, #069 69%, #036 100%);
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: black;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
